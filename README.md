@@ -99,9 +99,3 @@ mvn verify
 ```
 
 O relatório HTML do JaCoCo é gerado em `target/coverage-reports/jacoco-ut/index.html`.
-
-## Documentação complementar
-
-- [Visão detalhada e fluxo proposto](items.md)
-- [Guia de cobertura com JaCoCo](JACOCO_GUIDE.md)
-- [Revisão dos testes](TEST_COVERAGE_REVIEW.md)
