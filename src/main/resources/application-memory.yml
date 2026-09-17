@@ -1,0 +1,18 @@
+# Profile de teste em memória (sem Redis/RabbitMQ reais)
+spring:
+  config:
+    activate:
+      on-profile: memory
+
+# Uso de adapters em memória
+app:
+  cache:
+    type: memory
+  messaging:
+    type: memory
+
+# Logging padrão
+logging:
+  level:
+    br.com.teofilob.pendingnotification: INFO
+

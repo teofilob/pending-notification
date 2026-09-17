@@ -1,0 +1,20 @@
+# Profile de desenvolvimento com Redis e RabbitMQ reais
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+# Uso de adapters reais
+app:
+  cache:
+    type: redis
+  messaging:
+    type: rabbitmq
+
+# Logging mais detalhado
+logging:
+  level:
+    br.com.teofilob.pendingnotification: DEBUG
+    org.springframework.amqp: INFO
+    org.springframework.data.redis: INFO
+
